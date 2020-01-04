@@ -1,7 +1,7 @@
 module.exports = {
-  title: "pimatic metasensors devices config schemas"
+  title: "pimatic meta devices config schemas"
   MetasensorsPresence:
-    title: "MetasensorsPresence config"
+    title: "MetaPresence config"
     type: "object"
     extensions: ["xLink", "xConfirm", "xPresentLabel", "xAbsentLabel"]
     properties:
@@ -24,7 +24,7 @@ module.exports = {
         items:
           type: "string"
   MetasensorsSwitch:
-    title: "MetasensorsSwitch config"
+    title: "MetaSwitch config"
     type: "object"
     extensions: ["xLink", "xConfirm", "xOnLabel", "xOffLabel"]
     properties:
