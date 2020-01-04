@@ -1,0 +1,29 @@
+{
+  "name": "pimatic-metasensors",
+  "description": "Build aggregated sensors in Pimatic",
+  "author": {
+    "name": "Bert Gierveld",
+    "email": "gitbertreb@gmail.com",
+    "url": "https://github.com/bertreb"
+  },
+  "main": "metasensors",
+  "homepage": "https://github.com/bertreb/pimatic-metasensors.git",
+  "keywords": [
+    "pimatic",
+    "devices",
+    "metasensor"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertreb/pimatic-metasensors.git"
+  },
+  "configSchema": "metasensors-config-schema.coffee",
+  "peerDependencies": {
+    "pimatic": "0.9.*"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2"
+  }
+}
